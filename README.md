@@ -2,6 +2,8 @@
 
 Taskmaster is a full-stack web application designed to streamline task management and improve productivity. It provides a user-friendly interface for organizing tasks efficiently, complete with user authentication and secure data storage.
 
+![image](https://github.com/anu30singh/TaskMaster/blob/d845a728175b8b45c4c51531a1ae3e7a584279d4/Frontend/src/assets/NotesApp.jpeg)
+
 ## Features
 
 - **Task Management**: Easily create, update, and delete tasks with intuitive controls.
