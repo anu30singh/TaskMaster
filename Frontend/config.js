@@ -1,3 +1,3 @@
 export const config = {
-    apiUrl: "https://to-do-app-topaz-sigma.vercel.app"
+    apiUrl: "notes-app-blond-theta.vercel.app"
 }
