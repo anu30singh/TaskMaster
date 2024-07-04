@@ -1,10 +1,11 @@
-import {config} from "../../config";
+// src/loginPage/ServerCalls.jsx
+import { config } from "../../config";
 
-async function signInHandler(data, props){
+async function signInHandler(data, props) {
     const response = await fetch(`${config.apiUrl}/signin`, {
         method: "POST",
         headers: {
-            "Content-Type": "application/json" // Specify content type as JSON
+            "Content-Type": "application/json"
         },
         body: JSON.stringify({
             "username": data.username,
@@ -12,22 +13,19 @@ async function signInHandler(data, props){
         })
     });
 
-
-
     const responseData = await response.json();
     await props.setToken(responseData.userToken);
 
     if (response.status === 200) {
         await props.setLogin(true);
     }
-
 }
 
 async function signUpHandler(data, props) {
     const response = await fetch(`${config.apiUrl}/signup`, {
         method: "POST",
         headers: {
-            "Content-Type": "application/json" // Specify content type as JSON
+            "Content-Type": "application/json"
         },
         body: JSON.stringify({
             "username": data.username,
