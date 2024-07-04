@@ -16,7 +16,7 @@ function authentication (req, res, next) {
         }
     } catch(e) {
         res.json({
-            msg: "Incorrect inputs"
+            msg: "Wrong inputs"
         })
     }
 

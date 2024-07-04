@@ -1,14 +1,14 @@
 const { Router } = require("express");
 const router = Router();
 
-// Database setup
+
 const Todos = require("../database/index");
 
-// JWT setup
+
 const jwt = require("jsonwebtoken");
 const {JWT_SECRET} = require("../config");
 
-// Middleware setup
+
 const authentication = require('../middleware/authentication');
 
 router.get("/todos", authentication, async (req,res) => {

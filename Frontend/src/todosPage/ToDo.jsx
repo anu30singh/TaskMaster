@@ -1,4 +1,4 @@
-// src/todosPage/ToDo.jsx
+
 import { AiOutlineDelete } from "react-icons/ai";
 import { deleteTodo } from "./serverCalls";
 import React from "react";

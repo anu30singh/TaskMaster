@@ -1,4 +1,4 @@
-// src/loginPage/ServerCalls.jsx
+
 import { config } from "../../config";
 
 async function signInHandler(data, props) {
