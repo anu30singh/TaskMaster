@@ -1,4 +1,5 @@
-// src/pages/Todos.jsx
+// Todos.jsx
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -99,4 +100,3 @@ const Todos = () => {
 };
 
 export default Todos;
-
